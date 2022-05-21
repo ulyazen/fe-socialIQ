@@ -1,0 +1,35 @@
+.table {
+  width: 100%;
+}
+
+.table.table-sticky thead {
+  position: sticky;
+  top: 200px;
+}
+
+.table.table-bordered thead tr th {
+  padding-bottom: 34px;
+  color: #d8dce9;
+  letter-spacing: 0.04em;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.table.table-bordered tbody tr {
+  border-bottom: 0.75px solid #f2f3f8;
+}
+
+.table.table-bordered tbody tr td {
+  text-align: left;
+  padding-bottom: 15px;
+  color: #3a4569;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.03em;
+}
+
+.table.table-bordered tbody tr:not(:first-child) td {
+  padding: 15px 0;
+}

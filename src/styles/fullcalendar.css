@@ -1,0 +1,103 @@
+.fc .fc-timegrid-col.fc-day-today {
+  background-color: inherit !important;
+}
+
+.fc-today-button.fc-button.fc-button-primary {
+  display: none;
+}
+
+.fc.fc-media-screen.fc-direction-ltr.fc-theme-standard {
+  height: 100%;
+}
+
+.fc-scroller:not(.fc-scroller.fc-scroller-liquid-absolute)::-webkit-scrollbar {
+  width: 0;
+}
+
+.fc-scroller.fc-scroller-liquid-absolute::-webkit-scrollbar {
+  width: 4px;
+}
+
+.fc-scroller.fc-scroller-liquid-absolute::-webkit-scrollbar-thumb {
+  width: 4px;
+  background-color: #d8dce9;
+  border-radius: 20px;
+}
+
+.fc-theme-standard .fc-scrollgrid {
+  border: unset !important;
+}
+
+.fc-theme-standard td,
+.fc-theme-standard th {
+  border-color: #f2f3f8;
+  border-width: 0.75px;
+}
+
+.fc .fc-timegrid-axis-cushion,
+.fc .fc-timegrid-slot-label-cushion {
+  color: #d8dce9;
+}
+
+.fc-event-main {
+  background: #ffffff;
+  box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  color: #3a4569 !important;
+  padding: 7px;
+}
+
+.fc-event-main.reset-pad {
+  padding: unset !important;
+}
+
+.fc-header-toolbar.fc-toolbar .fc-toolbar-chunk:last-child {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 13px 32px rgba(58, 69, 105, 0.04);
+  border-radius: 20px;
+  padding: 4px;
+}
+
+.fc-header-toolbar.fc-toolbar .fc-toolbar-chunk .fc-toolbar-title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 32px;
+  color: #3a4569;
+}
+
+.fc-header-toolbar.fc-toolbar .fc-toolbar-chunk .fc-prev-button,
+.fc-header-toolbar.fc-toolbar .fc-toolbar-chunk .fc-next-button {
+  width: 32px;
+  height: 32px;
+  background: #f7faff;
+  color: #4f97ff;
+  border: none;
+  outline: none;
+  border-color: transparent;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+}
+
+.custom-header-fc {
+  display: inline-flex;
+  flex-direction: column;
+  margin-bottom: 13px;
+}
+
+.custom-header-fc__day {
+  font-size: 14px;
+  line-height: 32px;
+  color: #d8dce9;
+}
+
+.custom-header-fc__date {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 32px;
+  color: #4f97ff;
+}
