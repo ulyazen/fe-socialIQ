@@ -312,6 +312,7 @@ export const DefaultNavbar = ({
 
   const handleClickHamburger = () => {
     sidebarRef.current.classList.toggle("show");
+    // document.getElementById("sidebar").style.borderRight = "1px solid #f2f3f8";
     // document.getElementById("root").style.overflow = "hidden";
   };
 

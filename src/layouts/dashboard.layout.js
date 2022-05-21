@@ -235,7 +235,7 @@ const Sidebar = styled.aside`
   top: 0;
   padding-top: 51px;
   padding-bottom: 50px;
-  border-right: 1px solid #f2f3f8;
+
   overflow-y: auto;
 
   ::-webkit-scrollbar {
@@ -267,6 +267,7 @@ const Sidebar = styled.aside`
     }
 
     &.show {
+      border-right: 1px solid #f2f3f8;
       width: calc(100vw - 52px);
       transition: width 0.5s;
     }

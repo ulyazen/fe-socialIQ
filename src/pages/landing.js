@@ -13,9 +13,9 @@ const HeroSection = styled.section`
   flex-direction: column;
   padding: 5rem 12rem;
   flex-direction: row;
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 1024px) {
     justify-content: center;
-    padding: 5rem 5rem;
+    padding: 5rem 2rem;
   }
 `;
 
@@ -45,7 +45,7 @@ const HeroSectionWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 1024px) {
     flex-direction: column;
   }
 `;
@@ -102,9 +102,9 @@ const HeroImageSection = styled.section`
   flex-direction: column;
   padding: 5rem 12rem;
   flex-direction: row;
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 1024px) {
     justify-content: center;
-    padding: 5rem 5rem;
+    padding: 5rem 2rem;
   }
 `;
 
