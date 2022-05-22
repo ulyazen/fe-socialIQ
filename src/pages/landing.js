@@ -60,6 +60,7 @@ const HeroButton = styled.button`
   font-weight: 500;
   font-size: 1rem;
   transition: all 0.5s ease;
+  color: #292d32;
   &:hover {
     background-color: #173b67;
     color: #fff;
@@ -111,6 +112,182 @@ const HeroImageSection = styled.section`
 const HeroImage = styled.img`
   width: 100%;
 `;
+
+const WhyChooseSection = styled.section`
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 5rem 12rem;
+
+  gap: 3.5rem;
+  @media only screen and (max-width: 1024px) {
+    flex-direction: column;
+    padding: 5rem 2rem;
+  }
+`;
+
+const WhyChooseWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 50%;
+  gap: 2.9rem;
+  @media only screen and (max-width: 1024px) {
+    width: 100%;
+  }
+`;
+
+const SectionTitle = styled.p`
+  font-size: 20px;
+  color: #237cfb;
+  padding: 0rem 12rem;
+  @media only screen and (max-width: 1024px) {
+    flex-direction: column;
+    padding: 0rem 2rem;
+  }
+`;
+
+const WhyChooseTitle = styled.p`
+  font-size: 44px;
+  color: #292d32;
+  font-weight: 700;
+`;
+
+const WhyChooseButton = styled.button`
+  background-color: #fff;
+  padding: 1rem 3rem;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid #237cfb;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: all 0.5s ease;
+  color: #237cfb;
+  &:hover {
+    background-color: #173b67;
+    color: #fff;
+  }
+  border-radius: 35px;
+`;
+
+const WhyChooseImage = styled.img`
+  width: 100%;
+`;
+
+const MarketingWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 50%;
+  gap: 2.5rem;
+  @media only screen and (max-width: 1024px) {
+    width: 100%;
+  }
+`;
+
+const MarketingTitle = styled.p`
+  font-size: 30px;
+  color: #3a4569;
+  font-weight: 500;
+  line-height: 3rem;
+`;
+
+const MarketingText = styled.p`
+  font-size: 18px;
+  color: #3a4569;
+  font-weight: 300;
+  margin-top: -40px;
+  margin-bottom: 4px;
+  line-height: 2rem;
+`;
+
+const MarketingList = styled.ul`
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px;
+  margin-top: 10px;
+  @media only screen and (max-width: 1024px) {
+    margin-top: 0px;
+  }
+`;
+
+const MarketingListWrapper = styled.div`
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  gap: 0.5rem;
+`;
+
+const MarketingListItemTop = styled.li`
+  font-size: 14px;
+  line-height: 21px;
+  color: #d8dce9;
+  display: flex;
+  align-items: flex-start;
+  width: max-content;
+  background-color: #237cfb;
+  padding: 1.8rem 2rem;
+  border-radius: 12px;
+  outline: none;
+  border: 1px solid #237cfb;
+  font-weight: 500;
+  width: 100%;
+  flex-direction: row;
+  gap: 16px;
+`;
+const MarketingListItem = styled.li`
+  font-size: 14px;
+  line-height: 21px;
+  color: #d8dce9;
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  background-color: #fff;
+  padding: 1.8rem 2rem;
+  border-radius: 12px;
+  outline: none;
+  border: 1px solid #237cfb;
+  font-weight: 500;
+  flex-direction: row;
+  gap: 16px;
+`;
+
+const MarketingListTopTitle = styled.p`
+  font-size: 22px;
+  color: white;
+  font-weight: 500;
+`;
+
+const MarketingListTopText = styled.p`
+  font-size: 16px;
+  color: white;
+  font-weight: 300;
+`;
+
+const MarketingListTitle = styled.p`
+  font-size: 22px;
+  color: #3a4569;
+  font-weight: 500;
+`;
+
+const MarketingListText = styled.p`
+  font-size: 16px;
+  color: #3a4569;
+  font-weight: 300;
+`;
+
+const MarketingListImage = styled.img`
+  width: 75px;
+`;
+
 const landing = () => {
   return (
     <>
@@ -135,6 +312,58 @@ const landing = () => {
       <HeroImageSection>
         <HeroImage src="/images/landing/dashboard.png" alt="logo" />
       </HeroImageSection>
+      <SectionTitle>WHY SOCIALQ</SectionTitle>
+      <WhyChooseSection>
+        <WhyChooseWrapper>
+          <WhyChooseTitle>Why Choose SocialQ?</WhyChooseTitle>
+          <WhyChooseButton>Learn More</WhyChooseButton>
+
+          <WhyChooseImage src="/images/landing/create.png" alt="logo" />
+        </WhyChooseWrapper>
+        <MarketingWrapper>
+          <MarketingTitle>
+            #1 Marketing Platform for Social Network
+          </MarketingTitle>
+          <MarketingText>
+            With our service will help you save time and optimize profile
+            management on social networks. Visually Plan, Schedule post and
+            automation on social networks.
+          </MarketingText>
+          <MarketingList>
+            <MarketingListItemTop>
+              <MarketingListImage src="/images/landing/icon1.png" alt="logo" />
+              <MarketingListWrapper>
+                <MarketingListTopTitle>Post Schedule</MarketingListTopTitle>
+                <MarketingListTopText>
+                  Select your date, time or whenever you want to publish on each
+                  your social accounts
+                </MarketingListTopText>
+              </MarketingListWrapper>
+            </MarketingListItemTop>
+            <MarketingListItem>
+              <MarketingListImage src="/images/landing/icon2.png" alt="logo" />
+              <MarketingListWrapper>
+                <MarketingListTitle>Easy Create Post</MarketingListTitle>
+                <MarketingListText>
+                  SocialQ will provide AI Content generation tool. Content
+                  creation has never been faster!
+                </MarketingListText>
+              </MarketingListWrapper>
+            </MarketingListItem>
+            <MarketingListItem>
+              <MarketingListImage src="/images/landing/icon3.png" alt="logo" />
+
+              <MarketingListWrapper>
+                <MarketingListTitle>Flexible Pricing</MarketingListTitle>{" "}
+                <MarketingListText>
+                  We are providing best and affordable plans for small, medium
+                  and large enterprise.
+                </MarketingListText>
+              </MarketingListWrapper>
+            </MarketingListItem>
+          </MarketingList>
+        </MarketingWrapper>
+      </WhyChooseSection>
       <Footer />
     </>
   );

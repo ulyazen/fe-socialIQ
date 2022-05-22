@@ -175,7 +175,7 @@ const Menu = styled.ul`
   display: flex;
   align-items: center;
   text-align: center;
-  @media only screen and (max-width: 1000px) {
+  @media only screen and (max-width: 1024px) {
     display: none;
   }
   margin-right: auto;
@@ -184,7 +184,7 @@ const MenuButton = styled.ul`
   display: flex;
   align-items: center;
   text-align: center;
-  @media only screen and (max-width: 1000px) {
+  @media only screen and (max-width: 1024px) {
     display: none;
   }
   margin-left: auto;
@@ -193,8 +193,6 @@ const MenuButton = styled.ul`
 const MenuItem = styled.li`
   list-style: none;
   height: 80px;
-
-  }
 `;
 
 const MenuLink = styled(Link)`

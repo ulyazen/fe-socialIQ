@@ -36,7 +36,7 @@ const FooterTryFreeTrialWrapper = styled.div`
   justify-content: center;
   align-items: center;
   margin-top: 2rem;
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 1024px) {
     flex-direction: column;
   }
 `;
@@ -63,11 +63,12 @@ const FooterLinkContainer = styled.div`
   align-items: center;
   width: 100%;
   padding: 0 105px 0 105px;
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 1024px) {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: fit-content;
+    padding: 0 35px 0 35px;
   }
 `;
 
@@ -77,16 +78,14 @@ const FooterLinksWrapper = styled.div`
   gap: 100px;
   align-items: center;
   margin-left: 48px;
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 1024px) {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 25px;
     width: 100%;
     margin-top: 24px;
     margin-left: 0px;
-  }
-  @media only screen and (max-width: 700px) {
-  }
+  }x
 `;
 
 const FooterSocial = styled.div`
@@ -95,12 +94,10 @@ const FooterSocial = styled.div`
   width: 25%;
   line-height: 2;
   flex-direction: column;
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 1024px) {
     display: flex;
     align-items: start;
     width: fit-content;
-  }
-  @media only screen and (max-width: 700px) {
   }
 `;
 
